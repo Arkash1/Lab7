@@ -41,7 +41,7 @@ public class Main {
         System.out.println("Результаты поиска:");
         boolean found = false;
         for (Product product : products) {
-            if (product.name.contains(searchName)) { // Поиск по части строки
+            if (product.name.contains(searchName)) { 
                 System.out.println(product);
                 found = true;
             }
